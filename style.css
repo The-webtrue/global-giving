@@ -16,6 +16,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     height: 92vh; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .global-header h1
@@ -53,6 +54,13 @@ a
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     color: #fff;
+    transition: 0.5s;
+}
+
+.btn:hover
+{
+    background-image: linear-gradient(rgb(255, 2, 225), rgb(248, 229, 248));
+    color: black;
 }
 
 /* Donate Today section */
@@ -60,7 +68,7 @@ a
 .donate-today h1
 {
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 700;
 }
 
@@ -93,10 +101,10 @@ a
 .pricing:hover
 {
     /* border: 3px solid  rgb(0, 81, 243) ; */
-    background-color: rgb(2, 209, 255);
+    background-color: rgba(2, 209, 255, 0.851);
     border-radius: 7px;
     cursor: pointer; 
-    overflow: hidden;
+    outline: 2px solid rgb(76, 0, 255);
 }
 
 .other-amount 
@@ -155,16 +163,131 @@ a
 #food-pink
 {
     background-color: rgba(255, 192, 203, 0.636);
+    transition: 0.5s;
+}
+
+#food-pink:hover
+{
+    background-color: rgba(235, 3, 42, 0.947);
+    color: #fff;
 }
 
 #shelter-red
 {
     background-color: rgba(255, 0, 0, 0.405);
+    transition: 0.5s;
+}
+#shelter-red:hover
+{
+    background-color: rgb(245, 172, 0);
+    color: #fff;
 }
 
 #educ-yellow
 {
     background-color: rgba(255, 255, 0, 0.23);
+    transition: 0.3s;
+}
+
+#educ-yellow:hover
+{
+    background-color: rgb(255, 0, 230);
+    color: #fff;
+}
+
+/* contribute section */
+
+.contribute
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
 }
 
 
+h4{
+    font-size: 30px;
+    color: gray;
+    font-weight: 200;
+}
+
+.half-width h1
+{
+    font-size: 40px;
+}
+
+.half-width
+{
+    padding-left: 30px;
+    margin-right: 50px;
+}
+
+.half-width img
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+
+.container-news
+{
+    
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.744);
+    color: #fff;
+    margin-top: 5%;
+    padding-top: 1%;
+    
+}
+
+.bouns-container
+{
+    display: flex;
+    padding: 10px;
+    
+}
+.container-news h1
+{
+    font-size: 60px;
+   
+}
+
+.grid-style
+{
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.grid-style img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recent-btn
+{   
+    margin-top: 1%;
+    border: none;
+    padding: 15px 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: large; 
+}
+
+
+.update h1
+{
+    font-size: 60px;
+    text-align: center;
+}
+.update p
+{
+    font-size: 25px;
+    text-align: center;
+}
+
+form
+{
+    text-align: center;
+    background-color: rgb(188, 216, 76);
+    padding: 2%;
+}
