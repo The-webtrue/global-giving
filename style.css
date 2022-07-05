@@ -225,13 +225,13 @@ h4{
 
 .half-width img
 {
+    width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
 
 
 .container-news
 {
-    
     text-align: center;
     background-color: rgba(128, 128, 128, 0.744);
     color: #fff;
@@ -239,13 +239,11 @@ h4{
     padding-top: 1%;
     
 }
-
 .bouns-container
 {
     display: flex;
-    padding: 10px;
-    
 }
+
 .container-news h1
 {
     font-size: 40px;
@@ -254,8 +252,8 @@ h4{
 
 .grid-style
 {
-    padding: 30px;
-    margin: 30px;
+    padding: 60px;
+    margin: 90px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
